@@ -48,3 +48,18 @@ The ER diagram defines all entities, attributes, primary keys, foreign keys, and
 - Order 1 → 1 Payment
 
 ERD files can be found in:/ERDiagram/ERDiagramECommerce.png
+
+
+## Database Design
+The database is designed according to **Third Normal Form (3NF)**:
+- No repeating groups
+- No duplicated data
+- All non-key attributes depend on the key
+
+**Data integrity is enforced using:**
+- Primary Keys (PK)
+- Foreign Keys (FK)
+- NOT NULL constraints
+- UNIQUE constraints
+- CHECK constraints
+- DEFAULT values
