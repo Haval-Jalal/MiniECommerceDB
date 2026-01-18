@@ -93,9 +93,10 @@ Scripts `09` and `10` are planned for future implementation.
 - [x] GitHub repository structure created
 - [x] Create database (`01_CreateDatabase.sql`)
 - [x] Create tables (`02_CreateTables.sql`)
+- [x] Seed data (`03_SeedData.sql`) + ('00_Verifcation_Selects.sql')
 
 ### In Progress
-- [ ] Seed data (`03_SeedData.sql`)
+
 	CRUD operations
 - [ ] Insert (`04_CRUD_Insert.sql`)
 - [ ] Select (`05_CRUD_Select.sql`)
