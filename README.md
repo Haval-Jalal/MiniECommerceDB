@@ -63,3 +63,73 @@ The database is designed according to **Third Normal Form (3NF)**:
 - UNIQUE constraints
 - CHECK constraints
 - DEFAULT values
+
+
+---
+
+## SQL Scripts Execution Order
+Run the scripts in the following order:
+
+1. `01_CreateDatabase.sql`
+2. `02_CreateTables.sql`
+3. `03_SeedData.sql`
+4. `04_CRUD_Insert.sql`
+5. `05_CRUD_Select.sql`
+6. `06_CRUD_Update.sql`
+7. `07_CRUD_Delete.sql`
+8. `08_Joins_Queries.sql`
+
+Scripts `09` and `10` are planned for future implementation.
+
+---
+
+## Current Status
+
+### Completed
+- [x] Scenario selection
+- [x] ER diagram created and finalized
+- [x] Database schema designed
+- [x] Tables created with PK, FK, and constraints
+- [x] GitHub repository structure created
+- [x] Create database (`01_CreateDatabase.sql`)
+- [x] Create tables (`02_CreateTables.sql`)
+
+### In Progress
+- [ ] Seed data (`03_SeedData.sql`)
+	CRUD operations
+- [ ] Insert (`04_CRUD_Insert.sql`)
+- [ ] Select (`05_CRUD_Select.sql`)
+- [ ] Update (`06_CRUD_Update.sql`)
+- [ ] Delete (`07_CRUD_Delete.sql`)
+- [ ] Joins and complex queries (`08_Joins_Queries.sql`)
+
+
+
+
+## Reflections (Initial)
+- The database is designed to be realistic and scalable rather than a toy example.
+- Many-to-many relationships are handled using a junction table (`OrderItem`).
+- Constraints are used to protect data integrity at the database level.
+- Further improvements could include user authentication, order history, and payment status tracking.
+
+---
+
+## Future Improvements
+- Implement views for reporting
+- Add stored procedures for common operations
+- Implement security features such as password hashing and user management
+- Connect the database to a .NET Console Application
+
+---
+
+## Technologies Used
+- SQL Server
+- SQL Server Management Studio (SSMS)
+- GitHub
+- ER modeling (draw.io)
+
+---
+
+## Author
+Student project for the Databases course.
+Name: Haval Jalal
