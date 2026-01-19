@@ -7,8 +7,5 @@ IF NOT EXISTS (
 CREATE DATABASE MiniECommerceDB;
 
 
-USE MiniECommerceDB;
-
-
 
 
